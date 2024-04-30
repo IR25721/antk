@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "titlefont";
+    src: url("titlefont.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "li";
+    src: url("Kaisotai-Next-UP-B.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "main";
+    src: url("851tegaki_zatsu_normal_0883.ttf") format("truetype");
+  }
+body{
+    margin:0;
+}
+header li{
+    list-style: none;
+    float:right;
+    color:white;
+    padding:40px 20px; 
+    font-family: "li";
+    font-size:40px;
+    a{
+        color:white;
+    }
+}
+.header-logo{
+    float: left;
+    font-size:60px;
+    color:#ffff00;
+    font-family:"titlefont";
+   
+}
+.header-logo a{
+    color:yellow;
+    text-decoration: none;  
+}
+header{
+    margin:0;
+    background-color:black ;
+    height:100px;
+    
+}
+li a{
+    text-decoration:none;
+}
+.main{
+    margin:0;
+    
+}
+.Hello-World{
+    background-image:url(background.jpg);
+    height:400px;
+    
+    background-size:cover;
+    color:white;
+    
+}
+.Hello-World h1{
+    font-size:120px;
+    width:1200px;
+    font-family:"li";
+    margin:0;
+    margin:0 auto;
+}
+.Hello-World h3{
+    padding-top:100px;
+    font-size:30px;
+    width:1200px;
+    font-family:"main";
+    margin:0 auto;
+}
+.top-index{
+    padding-left:20px;
+    font-size:40px;
+    font-family:"li";
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+}
+.top-index span{
+    font-size:30px;
+}
+.i1s{
+    position: relative;
+}
+.i1s p{
+    position: absolute;
+    top:140px;
+    left:210px;
+    color:darkorange;
+    font-size:35px;
+    font-family: "titlefont";
+
+}
+img{
+    height:350px;
+    width:400px;
+    padding-left:65px;
+    padding-top:100px;
+}
+.index{
+    float:left;
+}
+.i2s{
+    position: relative;
+}
+.i2s p{
+    position: absolute;
+    top:135px;
+    left:150px;
+    color:#00bfff;
+    font-size:35px;
+    font-family: "titlefont";
+}
+.i1r{
+    position: relative;
+}
+.i1r p{
+    position: absolute;
+    top:135px;
+    left:62px;
+    color:darkorange;
+    font-size:35px;
+    font-family: "titlefont";
+}
+.i2r{
+    position: relative;
+}
+.i2r p{
+    position: absolute;
+    top:135px;
+    left: 67px;
+    color:#00bfff;
+    font-size:35px;
+    font-family: "titlefont";
+}
+.i1q{
+    position: relative;
+}
+.i1q p{
+    position: absolute;
+    top:135px;
+    left:220px;
+    color:darkorange;
+    font-size:35px;
+    font-family: "titlefont";
+}
+.i2q{
+    position: relative;
+}
+.i2q p{
+    position: absolute;
+    top:135px;
+    left:180px;
+    color:#00bfff;
+    font-size:35px;
+    font-family: "titlefont";
+}
+.tools{
+    position: relative;
+}
+.tools p{
+    position: absolute;
+    top:170px;
+    left:220px;
+    color:#ffff00;
+    font-size:35px;
+    font-family: "titlefont";
+}
+footer{
+    background-color: black;
+    color:yellow;
+    height:200px;
+}
+footer h1{
+    font-family:"li";
+    font-size:40px;
+    padding-top:20px;
+    margin:0;
+}
+footer h1 span{
+    font-family:"main";
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+.x{
+    background-image:url(simple.jpg);
+    height:700px;
+    background-size:cover;
+    
+}
+.Hello-World a{
+    color:white;
+}
+.toumei{
+    background-color: rgba(0, 0, 0, 0.6);
+    height:400px;
+}
+.date {
+    font-family:"li";
+}
+.News-list-title{
+    font-family:"main";
+}
+.News-title{
+    font-family:"li";
+    font-size:40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.News-title span{
+    font-size:20px;
+}
+.News-title a{
+    color:black;
+}
+/*.x-toumei{
+    background-color:rgba(255,255,255,0.2) ;
+    height:1000px;
+}*/
+.himitunoheya{
+    position:absolute;
+    top:1200px;
+    left:700px;
+    color:white;
+
+}
+@media(max-width:600px){
+    .himitunoheya{
+    position:absolute;
+    top:1000px;
+    left:250px;
+    color:white;
+
+}
+    .i1q p{
+    position: absolute;
+    top:35px;
+    left:95px;
+    color:darkorange;
+    font-size:20px;
+    font-family: "titlefont";
+}
+img{
+    height:200px;
+    width:200px;
+    padding:10px;
+}
+
+.main h1{
+    font-size:60px;
+    width:2000px;
+    height:150px;
+}
+.Hello-World h3{
+    font-size:20px;
+    width:400px;
+ 
+}
+header li{
+    font-size:20px;
+    padding-left:5px;
+    padding-right:12px;
+    padding-top:40px;
+}
+html, body{
+    overflow-x:hidden;
+}
+.i1s p{
+    position:absolute;
+    top:40px;
+    left:65px;
+    font-size:20px;
+}
+.tools p{
+    position:absolute;
+    top:50px;
+    left:85px;
+    font-size:20px;
+}
+.top-index span{
+    font-size:20px;
+}
+.Hello-World h3{
+    padding-left:20px;
+    padding-right:20px;
+}
+.Hello-World h3{
+    padding-left:0;
+}
+}

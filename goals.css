@@ -1,0 +1,337 @@
+@font-face {
+    font-family: "titlefont";
+    src: url("titlefont.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "li";
+    src: url("Kaisotai-Next-UP-B.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "main";
+    src: url("851tegaki_zatsu_normal_0883.ttf") format("truetype");
+  }
+body{
+    margin:0;
+    
+}
+header li{
+    list-style: none;
+    float:right;
+    color:white;
+    padding:40px 20px; 
+    font-family: "li";
+    font-size:40px;
+    a{
+        color:white;
+    }
+}
+.header-logo{
+    float: left;
+    font-size:60px;
+    color:#ffff00;
+    font-family:"titlefont";
+   
+}
+.header-logo a{
+    color:yellow;
+    text-decoration: none;  
+}
+header{
+    margin:0;
+    background-color:black ;
+    height:100px;
+    
+}
+li a{
+    text-decoration:none;
+}
+footer{
+    background-color: black;
+    color:yellow;
+    height:200px;
+}
+footer h1{
+    font-family:"li";
+    font-size:40px;
+    padding-top:20px;
+    margin:0;
+}
+footer h1 span{
+    font-family:"main";
+}
+.main{
+    background-image:url("goals-backgrounds.png");
+    height:1200px;
+    background-size:auto;
+    
+}
+.main h1{
+    font-family:"titlefont";
+    font-size:70px;
+    position:absolute;
+    top:80px;
+    left:600px
+}
+.h1-n{
+    font-family:"main";
+    font-size:30px;
+    position:absolute;
+    top:200px;
+    left:250px;
+}
+.toumei{
+    background-color: rgba(255,255,255,0.6);
+    height:1200px;
+}
+.main h2{
+    font-family:"titlefont";
+    font-size:50px;
+    position:absolute;
+    top:280px;
+    left:670px
+}
+.h2-n{
+    font-family:"main";
+    font-size:30px;
+    position:absolute;
+    top: 400px;
+    left:250px;
+}
+.main h3{
+    font-family:"titlefont";
+    font-size:50px;
+    position:absolute;
+    top:480px;
+    left:670px
+}
+.h3-n{
+    font-family:"main";
+    font-size:20px;
+    position:absolute;
+    top: 600px;
+    left:250px;
+    list-style:none;
+    
+}
+.y{
+    padding:10px;
+}
+h4{
+    font-family:"titlefont";
+    font-size:50px;
+    position:absolute;
+    top:780px;
+    left:670px
+}
+.z {
+    font-family:"main";
+    font-size:20px;
+    position:absolute;
+    top: 930px;
+    left:250px;
+    list-style:none;
+    
+    
+}
+.subjects-math{
+    position:absolute;
+    top: 1030px;
+    left:250px; 
+    font-family:"main";
+    font-size:20px;
+    list-style:none;
+}
+.subjects-ph{
+    position:absolute;
+    top: 1030px;
+    left:550px; 
+    font-family:"main";
+    font-size:20px;
+    list-style:none;
+}
+.subjects-inf{
+    position:absolute;
+    top: 1030px;
+    left:750px; 
+    font-family:"main";
+    font-size:20px;
+    list-style:none;
+}
+.kako{
+    position:absolute;
+    top: 1150px;
+    left:1150px; 
+    font-family:"li";
+    font-size:25px;
+    list-style:none;
+    
+}
+.kako a{
+    color:black;
+}
+
+@media(max-width:600px){
+    html body{
+        overflow-x:hidden;
+        
+    }
+    body{
+        margin:0;
+        
+    }
+    header li{
+        list-style: none;
+        float:right;
+        color:white;
+        padding:40px 8px; 
+        font-family: "li";
+        font-size:20px;
+        a{
+            color:white;
+        }
+    }
+    .header-logo{
+        float: left;
+        font-size:60px;
+        color:#ffff00;
+        font-family:"titlefont";
+       
+    }
+    .header-logo a{
+        color:yellow;
+        text-decoration: none;  
+    }
+    header{
+        margin:0;
+        background-color:black ;
+        height:100px;
+        
+    }
+    li a{
+        text-decoration:none;
+    }
+    footer{
+        background-color: black;
+        color:yellow;
+        height:400px;
+    }
+    footer h1{
+        font-family:"li";
+        font-size:40px;
+        padding-top:20px;
+        margin:0;
+    }
+    footer h1 span{
+        font-family:"main";
+    }
+    .main{
+        background-image:url("goals-backgrounds.png");
+        height:1200px;
+        background-size:auto;
+        
+    }
+    .main h1{
+        font-family:"titlefont";
+        font-size:70px;
+        position:absolute;
+        top:80px;
+        left:60px
+    }
+    .h1-n{
+        font-family:"main";
+        font-size:30px;
+        position:absolute;
+        top:200px;
+        left:50px;
+    }
+    .toumei{
+        background-color: rgba(255,255,255,0.6);
+        height:1200px;
+    }
+    .main h2{
+        font-family:"titlefont";
+        font-size:50px;
+        position:absolute;
+        top:315px;
+        left:60px
+    }
+    .h2-n{
+        font-family:"main";
+        font-size:30px;
+        position:absolute;
+        top: 400px;
+        left:50px;
+    }
+    .main h3{
+        font-family:"titlefont";
+        font-size:50px;
+        position:absolute;
+        top:480px;
+        left:60px
+    }
+    .h3-n{
+        font-family:"main";
+        font-size:20px;
+        position:absolute;
+        top: 600px;
+        left:60px;
+        list-style:none;
+        
+    }
+    .y{
+        padding:10px;
+    }
+    h4{
+        font-family:"titlefont";
+        font-size:50px;
+        position:absolute;
+        top:780px;
+        left:60px
+    }
+    .z {
+        font-family:"main";
+        font-size:20px;
+        position:absolute;
+        top: 930px;
+        left:60px;
+        list-style:none;
+        
+        
+    }
+    .subjects-math{
+        position:absolute;
+        top: 1030px;
+        left:60px; 
+        font-family:"main";
+        font-size:20px;
+        list-style:none;
+    }
+    .subjects-ph{
+        position:absolute;
+        top: 1030px;
+        left:200px; 
+        font-family:"main";
+        font-size:20px;
+        list-style:none;
+    }
+    .subjects-inf{
+        position:absolute;
+        top: 1030px;
+        left:320px; 
+        font-family:"main";
+        font-size:20px;
+        list-style:none;
+    }
+    .kako{
+        position:absolute;
+        top: 1200px;
+        left:300px; 
+        font-family:"li";
+        font-size:15px;
+        list-style:none;
+        
+    }
+    .kako a{
+        color:black;
+    }
+}

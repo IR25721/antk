@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "titlefont";
+    src: url("titlefont.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "li";
+    src: url("Kaisotai-Next-UP-B.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "main";
+    src: url("851tegaki_zatsu_normal_0883.ttf") format("truetype");
+  }
+body{
+    margin:0;
+    
+}
+header li{
+    list-style: none;
+    float:right;
+    color:white;
+    padding:40px 20px; 
+    font-family: "li";
+    font-size:40px;
+    a{
+        color:white;
+    }
+}
+.header-logo{
+    float: left;
+    font-size:60px;
+    color:#ffff00;
+    font-family:"titlefont";
+   
+}
+.header-logo a{
+    color:yellow;
+    text-decoration: none;  
+}
+header{
+    margin:0;
+    background-color:black ;
+    height:100px;
+    
+}
+li a{
+    text-decoration:none;
+}
+footer{
+    background-color: black;
+    color:yellow;
+    height:200px;
+}
+footer h1{
+    font-family:"li";
+    font-size:40px;
+    padding-top:20px;
+    margin:0;
+}
+footer h1 span{
+    font-family:"main";
+}
+.main{
+    background-image: url(letter.jpg);
+    height:700px;
+}
+.toumei{
+    background-color: rgba(255,255,255,0.5);
+    height:700px;
+}

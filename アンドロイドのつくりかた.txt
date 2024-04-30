@@ -1,0 +1,45 @@
+(2024 4/24 18:50)
+サイトの目的
+→池澤蓮斗という人間がアンドロイドを制作するためにいろいろ勉強しているということを知らせて、協力してくれる人を見つけるため。
+
+サイトには何を書くか
+→　一日何を勉強したか、何時間勉強したのか　何を勉強するつもりなのか　今どんな教材をやっているのか　どんな資格を持っているのか　今後の目標　開発したツール
+
+サイトの構造
+→top{
+	readme(自己紹介)
+	goals
+	sutdyNow{
+		time
+		math
+		prg
+		phy&robo
+		English
+		other
+		}
+	studyFut{
+		math
+		prg
+		phy&robo
+		English
+		other
+		}
+	readNow{
+		math
+		prg
+		phy&robo
+		English
+		other
+		}
+	readFut{
+		math
+		prg
+		phy&robo
+		English
+		other
+		}
+	qualNow		
+	qualFut
+	tools
+	}
+
